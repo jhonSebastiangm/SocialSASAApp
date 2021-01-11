@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Social SASA App</title>
+  
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Social SASA App</a>
+     
+    </nav>
+    <div class="container">
+        <div class="row p-4">
+          <div class="col-md-11">
+              <div class="card">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Usuarios</a>
+                   
+                  </nav>
+                <div class="card-body">
+                  <table class="table table-bordered table-sm">
+                    <thead>
+                      <tr>
+                        <td>id</td>
+                        <td>name</td>
+                        <td>username</td>
+                        <td>email</td>
+                        <td>phone</td>
+                        <td>webbsite</td>
+                      </tr>
+                    </thead>
+                    <tbody id="Usuarios"></tbody>
+                  </table>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row p-4">
+          <div class="col-md-11">
+              <div class="card">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Posts</a>
+                   
+                  </nav>
+                <div class="card-body">
+                  <table class="table table-bordered table-sm">
+                    <thead>
+                      <tr>
+                        <td>userId</td>
+                        <td>id</td>
+                        <td>title</td>
+                        <td>body</td>
+                      </tr>
+                    </thead>
+                    <tbody id="posts"></tbody>
+                  </table>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row p-4">
+          <div class="col-md-11">
+              <div class="card">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Comentarios</a>
+                   
+                  </nav>
+                <div class="card-body">
+                  <table class="table table-bordered table-sm">
+                    <thead>
+                      <tr>
+                        <td>postId</td>
+                        <td>id</td>
+                        <td>name</td>
+                        <td>email</td>
+                        <td>body</td>
+                      </tr>
+                    </thead>
+                    <tbody id="comentarios"></tbody>
+                  </table>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="javascript/app.js"></script>
+  </body>
+
+</html>
